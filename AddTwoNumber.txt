@@ -1,0 +1,22 @@
+
+//Java Program to find Addition of two numbers by input value from keyboard
+
+
+package java1;
+import java.util.Scanner;
+public class AddTwoNum {
+
+	public static void main(String[] args) {
+		int num1,num2,add;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the value of num1 : ");
+		num1 = s.nextInt();
+		System.out.println("Enter the value of num2 : ");
+		num2 = s.nextInt();
+		add = num1+num2;
+		System.out.println("The Addition of TWo number are : "+add);
+
+	}
+
+}
+// Code by Roshan sah
